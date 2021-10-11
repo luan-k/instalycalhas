@@ -15,7 +15,7 @@
                         <div class="flex justify-center md:justify-between">
 
                             <!-- logo -->
-                            <div>
+                            <div class="logo-wraper">
                                 <a class="" href="<?php echo esc_url(site_url()); ?>">
                                     <img class="logo" src="<?php echo get_theme_file_uri('/images/logo-final.png')?>" alt="">
                                 </a>

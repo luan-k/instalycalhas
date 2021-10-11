@@ -237,11 +237,10 @@
         <div class="servicos-texto space-y-12">
             <h2 class="title text-green-primary">serviços</h2>
             <p class="generic-text text-2xl text-dark-primary">
-                Aqui na Empresa INSTALY CALHAS, oferecemos o melhor acabamento em calhas e tudo que sua casa precisa. Você pode contar com atendimento ao cliente premium, seja qual for sua dúvida, estamos aqui para ajuda-lo.
+                Aqui na Empresa INSTALY CALHAS, oferecemos o melhor acabamento em calhas e tudo que sua casa precisa. Você pode contar com atendimento ao cliente que conta com profissionalismo, seja qual for sua dúvida, estamos aqui para ajuda-lo.
             </p>
             <p class="generic-text text-2xl text-dark-primary">
-                Nosso atendimento aos clientes não é a única coisa que impressiona, nossa mão de obra conta com o maior nível  de capricho, assim, não somente alcançando o objetivo primário da instalação seja o apodrecimento de beirais  ou a umidade excessiva. Mas também dando um toque  que contem um diferencial profissionalismo que existe em tudo que a Instaly calhas faz.
-
+            Nosso atendimento aos clientes não é a única coisa que impressiona, nossa mão de obra conta com o maior nível  de excelência, dando um toque  que contem um diferencial profissionalismo que existe em tudo que fazemos. Seja você também um cliente Instaly Calhas!
             </p>
         </div>
     </section>

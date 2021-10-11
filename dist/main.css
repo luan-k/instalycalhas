@@ -3939,6 +3939,10 @@ img.card-servico-img-top{
   }
 }
 
+.logo-wraper{
+  width:26rem
+}
+
 .icon-nav>a{
   transition:all .3s
 }
@@ -4145,7 +4149,7 @@ div.map-responsive>iframe{
 }
 
 .servicos{
-  background:url(images/81bba839ec6c9922d8dc.png);
+  background:url(images/65da1337b8acff8737df.png);
   background-repeat:no-repeat;
   background-size:auto 100%;
   background-position:center;

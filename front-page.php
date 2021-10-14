@@ -51,8 +51,8 @@
                         formados onde caem os pingos do telhado.
                     </p>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 md:gap-x-36 mt-9">
-                        <div class="btn-wraper justify-start mb-9 md:mb-0"><a href="" class="btn-wk flex items-center justify-center bg-green-primary rounded-2xl py-6 px-9 w-full text-center">Sobre Nós</a></div>
-                        <div class="btn-wraper justify-end"><a href="" class="btn-wk flex items-center justify-center bg-green-primary rounded-2xl py-6 px-9 w-full text-center">Nóssos Produtos</a></div>
+                        <div class="btn-wraper justify-start mb-9 md:mb-0"><a href="<?php echo esc_url(site_url('/quem-somos')); ?>" class="btn-wk flex items-center justify-center bg-green-primary rounded-2xl py-6 px-9 w-full text-center">Sobre Nós</a></div>
+                        <div class="btn-wraper justify-end"><a href="<?php echo esc_url(site_url('/produtos')); ?>" class="btn-wk flex items-center justify-center bg-green-primary rounded-2xl py-6 px-9 w-full text-center">Nóssos Produtos</a></div>
                     </div>
                 </div>
 
@@ -79,7 +79,7 @@
                                         para com isso obter a certeza da total
                                         satisfação de nossos clientes...
                                     </div>
-                                    <div class="btn-wraper"><a href="" class="btn-wk flex items-center justify-center text-white bg-green-primary rounded-2xl py-6 px-9 w-full text-center">Saiba Mais</a></div>
+                                    <div class="btn-wraper"><a href="<?php echo esc_url(site_url('/quem-somos')); ?>" class="btn-wk flex items-center justify-center text-white bg-green-primary rounded-2xl py-6 px-9 w-full text-center">Saiba Mais</a></div>
                                 </div>
                            </div>
                            <div class="card__side card__side--back card__side--back-1">
@@ -94,7 +94,7 @@
                                         para com isso obter a certeza da total
                                         satisfação de nossos clientes...
                                     </div>
-                                    <div class="btn-wraper"><a href="" class="btn-wk flex items-center justify-center text-black bg-white rounded-2xl py-6 px-9 w-full text-center">Saiba Mais</a></div>
+                                    <div class="btn-wraper"><a href="<?php echo esc_url(site_url('/quem-somos')); ?>" class="btn-wk flex items-center justify-center text-black bg-white rounded-2xl py-6 px-9 w-full text-center">Saiba Mais</a></div>
                                 </div>
                             </div>
                        </div>
@@ -116,7 +116,7 @@
                                         coifas, sputinick, entre outras peças
                                         produzidas sobre medidas...
                                     </div>
-                                    <div class="btn-wraper"><a href="" class="btn-wk flex items-center justify-center text-black bg-white rounded-2xl py-6 px-9 w-full text-center">produtos</a></div>
+                                    <div class="btn-wraper"><a href="<?php echo esc_url(site_url('/produtos')); ?>" class="btn-wk flex items-center justify-center text-black bg-white rounded-2xl py-6 px-9 w-full text-center">produtos</a></div>
                                 </div>
 
                             </div>
@@ -132,7 +132,7 @@
                                         coifas, sputinick, entre outras peças
                                         produzidas sobre medidas...
                                     </div>
-                                    <div class="btn-wraper"><a href="" class="btn-wk flex items-center justify-center text-white hover:text-gray-100 bg-green-primary rounded-2xl py-6 px-9 w-full text-center">produtos</a></div>
+                                    <div class="btn-wraper"><a href="<?php echo esc_url(site_url('/produtos')); ?>" class="btn-wk flex items-center justify-center text-white hover:text-gray-100 bg-green-primary rounded-2xl py-6 px-9 w-full text-center">produtos</a></div>
                                 </div>
                             </div>
                         </div>
@@ -156,7 +156,7 @@
                                         Entraremos em contato o mais breve
                                         possível...
                                     </div>
-                                    <div class="btn-wraper"><a href="" class="btn-wk flex items-center justify-center text-white bg-green-primary rounded-2xl py-6 px-9 w-full text-center">fazer orçamento</a></div>
+                                    <div class="btn-wraper"><a href="<?php echo esc_url(site_url('/contato')); ?>" class="btn-wk flex items-center justify-center text-white bg-green-primary rounded-2xl py-6 px-9 w-full text-center">fazer orçamento</a></div>
                                 </div>
 
                             </div>
@@ -173,7 +173,7 @@
                                         Entraremos em contato o mais breve
                                         possível...
                                     </div>
-                                    <div class="btn-wraper"><a href="" class="btn-wk flex items-center justify-center text-black bg-white rounded-2xl py-6 px-9 w-full text-center">fazer orçamento</a></div>
+                                    <div class="btn-wraper"><a href="<?php echo esc_url(site_url('/contato')); ?>" class="btn-wk flex items-center justify-center text-black bg-white rounded-2xl py-6 px-9 w-full text-center">fazer orçamento</a></div>
                                 </div>
                             </div>
                         </div>
@@ -185,7 +185,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 container">
                 <h3 class="title-2 text-white py-2 text-center md:text-left mb-5 md:mb-0">Fale conosco!</h3>
                 <div class="btn-wraper justify-center md:justify-end">
-                    <a class="btn-wk text-white bg-green-primary rounded-full py-6 px-24 text-center">Contato</a>
+                    <a href="<?php echo esc_url(site_url('/contato')); ?>" class="btn-wk text-white bg-green-primary rounded-full py-6 px-24 text-center">Contato</a>
                 </div>
             </div>
         </section>

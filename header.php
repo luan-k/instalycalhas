@@ -23,13 +23,13 @@
 
                             <!-- primary nav -->
                             <div class="icon-nav hidden md:flex items-center text-2xl space-x-4">
-                                <a href="#" class="py-5 px-3 text-white"><i class="text-green-primary fab fa-whatsapp"></i> (48) 998479-1962</a>
-                                <a href="#" class="py-5 px-3 text-white"><i class="text-green-primary fas fa-phone-alt"></i> (48) 3033-3277</a>
-                                <a href="#" class="py-5 px-3 text-white"><i class="text-green-primary fab fa-facebook-f"></i></a>
-                                <a href="#" class="py-5 px-3 text-white"><i class="text-green-primary fab fa-instagram"></i></i></a>
-                                <a href="#" class="py-5 px-3 text-white"><i class="text-green-primary fab fa-twitter"></i></a>
-                                <a href="#" class="py-5 px-3 text-white"><i class="text-green-primary far fa-envelope"></i></a>
-                                <a href="#" class="py-5 px-3 text-white"><i class="text-green-primary fab fa-youtube"></i></a>
+                                <a target="_blank" class="py-5 px-3 text-white" href="https://web.whatsapp.com/send?phone=5548984791962&text=Ol%C3%A1!%20vim%20do%20Instaly%20Calhas.%20Estava%20olhando%20a%20p%C3%A1gina%20In%C3%ADcio.%20Pode%20me%20ajudar%3F"><i class="text-green-primary fab fa-whatsapp"></i> (48) 998479-1962</a>
+                                <a target="_blank" class="py-5 px-3 text-white" href="tel:4830333277" ><i class="text-green-primary fas fa-phone-alt"></i> (48) 3033-3277</a>
+                                <a target="_blank" class="py-5 px-3 text-white" href="https://www.facebook.com/instalycalhasflorianopolis/"><i class="text-green-primary fab fa-facebook-f"></i></a>
+                                <a target="_blank" class="py-5 px-3 text-white" href="<?php echo esc_url(site_url('/contato')); ?>"><i class="text-green-primary far fa-envelope"></i></a>
+                                <a target="_blank" href="#" class="py-5 px-3 text-white"><i class="text-green-primary fab fa-instagram"></i></i></a>
+                                <a target="_blank" href="#" class="py-5 px-3 text-white"><i class="text-green-primary fab fa-twitter"></i></a>                            
+                                <a target="_blank" href="#" class="py-5 px-3 text-white"><i class="text-green-primary fab fa-youtube"></i></a>
                             </div>                                        
                         </div>
                     </div>

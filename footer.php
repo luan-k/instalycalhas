@@ -88,7 +88,7 @@
                                 $footerServices->the_post(); ?>
                                 <div class="mt-3">
                                     <a href="<?php the_permalink(); ?>" class="footer-text">
-                                        <?php the_title() ?>
+                                        <?php echo wp_trim_words(the_title(), 5) ?>
                                     </a>
                                 </div>
                                 

@@ -1,6 +1,6 @@
 
             
-            <footer class="page-footer bg-green-900 text-light-primary pb-20 <?php if(is_front_page()){echo "clip-footer-home pt-60 -mt-48 md:pt-80 md:-mt-80";}else{echo "pt-30 single-bg";}?>">
+            <footer class="page-footer bg-primary text-light-primary pb-20">
                 
                 <!-- Footer Links -->
                 <div class="container text-center md:text-left text-lg">

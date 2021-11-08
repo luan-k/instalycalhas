@@ -15,7 +15,7 @@ $(function () {
   $("nav ul").append("<ol></ol>");
 
   $("nav").each(function () {
-    for (var i = 0; i <= ulLi.length - 2; i++) {
+    for (var i = 0; i <= ulLi.length - 12; i++) {
       $("nav ul > ol").append("<li>" + i + "</li>");
       $("nav ul > ol > li")
         .eq(i)

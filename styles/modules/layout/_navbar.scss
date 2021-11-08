@@ -1,5 +1,5 @@
 .logo-wraper {
-  width: 26rem;
+  width: 7rem;
 }
 .icon-nav > a {
   transition: all 0.3s;
@@ -15,7 +15,7 @@
 }
 
 nav ul li a {
-  color: #fff;
+  color: rgb(104, 104, 104);
   text-decoration: none;
 }
 /* End General */
@@ -26,6 +26,7 @@ nav ul > li {
   display: inline-block;
   transition: all 0.3s ease;
   margin-left: -5px;
+  font-size: 1.6rem;
 }
 /* nav ul > li:not(:last-of-type):hover {
   background-color: #222;
@@ -37,7 +38,7 @@ nav ul > li:last-of-type {
   float: right;
 }
 nav ul > li:last-of-type a .fa {
-  font-size: 21px;
+  font-size: 1.6rem;
 }
 /* End Navbar */
 
@@ -104,9 +105,35 @@ nav ul input {
 .current-menu-item {
   background: var(--darkPrimary);
 }
-/* @media (max-width: 500px) {
-  img.logo {
-    width: 60%;
-    margin: auto;
+ul.flex > li > a {
+  padding: 4rem 0;
+}
+/* Dropdown */
+.custom-menu-link {
+  transition: all 0.5s;
+  & > .menu-container {
+    display: none;
+    height: 0;
+
+    top: 9rem;
+    left: 0;
+    min-width: 100vw !important;
+    background-color: #ffffffd6;
+    z-index: 99;
+    padding: 0;
+    transition: all 0.5s;
+    & > ul {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
   }
-} */
+  &:hover > .menu-container {
+    display: grid;
+    position: absolute;
+    padding: 3rem 0;
+    min-height: 12rem;
+    height: 100%;
+    @apply container;
+  }
+}

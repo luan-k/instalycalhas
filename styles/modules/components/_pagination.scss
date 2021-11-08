@@ -13,21 +13,19 @@
     }
   }
   & > .pagination-box > .page-numbers {
-    padding: 1rem 3rem;
+    padding: 0.6rem 3rem;
   }
   & > .pagination-box > .page-numbers:hover {
-    background-color: var(--greenPrimary);
-    color: var(--darkPrimary);
+    @apply bg-secondary text-white;
   }
   & > .pagination-box > .current {
-    background-color: var(--greenPrimary);
-    color: var(--darkPrimary);
+    @apply bg-secondary text-white;
     /* border-radius: 100px; */
   }
 }
 .pagination-box {
   margin: 0;
-  background-color: var(--darkPrimary);
+  @apply bg-primary;
   padding: 1rem 3rem;
   border-radius: 5rem;
   width: fit-content;

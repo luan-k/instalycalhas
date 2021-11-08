@@ -7,20 +7,19 @@
 @use "components/titles";
 @use "components/btn-nav";
 @use "components/btn-wk";
-@use "components/card";
+@use "components/card-product";
 @use "components/product-slider";
 @use "components/product-card";
 @use "components/hr";
 @use "components/pagination";
-@use "components/card-servicos";
 
 @use "layout/navbar";
 @use "layout/footer";
 
-@use "pages/home/bem-vindo";
-@use "pages/home/servicos";
-@use "pages/servicossingle/layout";
-@use "pages/contato";
+@use "pages/home/slider";
+@use "pages/home/categorias";
+@use "pages/home/pagamentos";
+@use "pages/single/product";
 
 *,
 *::after,
@@ -45,7 +44,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--greenPrimary);
+  @apply bg-primary;
   border-radius: 10px;
   transition: background-color 0.8s;
 }
@@ -55,7 +54,7 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(6, 78, 59, var(--tw-bg-opacity));
+  @apply bg-blue-900;
 }
 /* ======================================== */
 /* ================scroolbar=================== */
@@ -74,7 +73,7 @@ body {
   box-sizing: border-box; /* Padding and Margin are no longer part of the width and height of the element */
   overflow-x: hidden;
   min-height: 100vh;
-  background-color: var(--lightPrimary);
+  background-color: #f2f2f2;
 }
 nav {
   font-family: "poppins";

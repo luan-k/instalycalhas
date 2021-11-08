@@ -1,249 +1,196 @@
 <?php get_header(); ?>
 
     <!-- slider -->
-    <section class="slider-custom" data-anime="slow-slider">
-        <?php echo do_shortcode('[ssslider id="7"]') ?>
+    <section class="slider-custom" id="slider-custom" data-anime="slow-slider">
+        <?php echo do_shortcode('[ssslider id="99"]') ?>
     </section>
 
-    
-        <!-- marcas -->
-        <section class="bem-vindo" data-anime="top">
-            <div class="grid grid-cols-1 md:grid-cols-2 space-x-9 h-full pt-40 pb-96 md:pb-80 px-3 md:px-20">
-                <div class="container hidden md:block pt-40">
-                    <div class="composition">
-                        <img srcset="<?php echo get_theme_file_uri('./images/bem-vindo-1.jpg')?> 300w, <?php echo get_theme_file_uri('./images/bem-vindo-1-large.jpg ')?>1000w"
-                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                            alt="Photo 1"
-                            class="composition__photo composition__photo--p1"
-                            src="<?php echo get_theme_file_uri('./images/bem-vindo-1-large.jpg')?>">
-                        <img srcset="<?php echo get_theme_file_uri('./images/bem-vindo-2.jpg')?> 300w, <?php echo get_theme_file_uri('./images/bem-vindo-2-large.jpg')?> 1000w"
-                                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                            alt="Photo 2"
-                            class="composition__photo composition__photo--p2"
-                            src="<?php echo get_theme_file_uri('./images/bem-vindo-2-large.jpg')?>">
-
-                        <img srcset="<?php echo get_theme_file_uri('./images/bem-vindo-3.jpg ')?> 300w, <?php echo get_theme_file_uri('./images/bem-vindo-3-large.jpg')?> 1000w"
-                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                            alt="Photo 3"
-                            class="composition__photo composition__photo--p3"
-                            src="<?php echo get_theme_file_uri('./images/bem-vindo-3-large.jpg')?>">
-
-                                    <!--
-                                    <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
-                                    <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                                    <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
-                                    -->
-                    </div>
-                </div>               
-                <div class="text-light-primary space-y-9">
-                    <h2 class="title">Bem vindo a instaly calhas</h2>
-                    <p class="generic-text text-4xl">
-                        A Empresa INSTALY CALHAS , oferece acabamento e a
-                        proteção ideal para diferentes projetos arquitetônicos,
-                        com beleza e praticidade, canalizando devidamente o
-                        fluxo pluvial
-                    </p>
-                    <p class="generic-text text-4xl">
-                        As calhas têm um papel importante nas edificações, pois
-                        evitam diversos danos causados pelas águas das chuvas,
-                        como o apodrecimento dos beirais, a umidade excessiva
-                        nas paredes que acelera o desgaste da alvenaria, da pintura e a danificação dos jardins ou calçadas com buracos,
-                        formados onde caem os pingos do telhado.
-                    </p>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 md:gap-x-36 mt-9">
-                        <div class="btn-wraper justify-start mb-9 md:mb-0"><a href="" class="btn-wk flex items-center justify-center bg-green-primary rounded-2xl py-6 px-9 w-full text-center">Sobre Nós</a></div>
-                        <div class="btn-wraper justify-end"><a href="" class="btn-wk flex items-center justify-center bg-green-primary rounded-2xl py-6 px-9 w-full text-center">Nóssos Produtos</a></div>
-                    </div>
+    <section class="pagamentos py-16 container">
+        <div class="grid grid-cols-1 md:grid-cols-4 bg-primary text-white rounded-2xl py-12">
+            <div class="pagamentos__wrapper grid grid-cols-1 md:grid-cols-3 border-r-4 border-double border-white px-3">
+                <i class="pagamentos__wrapper--icon fas fa-lock text-6xl m-auto"></i>
+                <div class="texts col-span-2">
+                    <h2 class="title-bland text-2xl">Pagamento cômodo e seguro</h2>
+                    <h3 class="title-bland text-xl text-gray-300">com Mercado Pago</h3>
                 </div>
-
-               
             </div>
-            
-        </section>
-        <section class="section-tours bg-light-primary pb-40 pt-96 -mt-96 px-0 md:px-32" id="section-tours">
-                <!-- ============= -->
-                <!-- ===card 1==== -->
-                <!-- ============= -->
-                <div class="grid grid-cols-1 px-12 md:px-0 md:grid-cols-3 gap-12">
-                    <div class="col-1-of-3">
-                       <div class="card rounded-3xl">
-                           <div class="card__side card__side--front">
-                                <div class="front-wraper py-10 px-10 flex flex-col content-center justify-evenly h-full items-center">
-                                    <div class="icon-wraper">
-                                        <i class="fas fa-home text-green-primary text-9xl"></i>
-                                    </div>
-                                    <h2 class="title-3 title-card text-4xl">Quem somos</h2>
-                                    <div class="generic-text  text-2xl text-center">
-                                        A empresa Instaly Calhas, juntando o
-                                        conhecimento, inovação e responsabilidade no que faz, tem como compromisso oferecer atendimento personalizado,
-                                        para com isso obter a certeza da total
-                                        satisfação de nossos clientes...
-                                    </div>
-                                    <div class="btn-wraper"><a href="" class="btn-wk flex items-center justify-center text-white bg-green-primary rounded-2xl py-6 px-9 w-full text-center">Saiba Mais</a></div>
-                                </div>
-                           </div>
-                           <div class="card__side card__side--back card__side--back-1">
-                                <div class="back-wraper py-10 px-10 flex flex-col content-center justify-evenly h-full items-center">
-                                    <div class="icon-wraper">
-                                        <i class="fas fa-home text-white text-9xl"></i>
-                                    </div>
-                                    <h2 class="title-3 title-card text-4xl text-white">Quem somos</h2>
-                                    <div class="generic-text  text-2xl text-center text-white">
-                                        A empresa Instaly Calhas, juntando o
-                                        conhecimento, inovação e responsabilidade no que faz, tem como compromisso oferecer atendimento personalizado,
-                                        para com isso obter a certeza da total
-                                        satisfação de nossos clientes...
-                                    </div>
-                                    <div class="btn-wraper"><a href="" class="btn-wk flex items-center justify-center text-black bg-white rounded-2xl py-6 px-9 w-full text-center">Saiba Mais</a></div>
-                                </div>
-                            </div>
-                       </div>
-                    </div>
-
-                    <!-- ============= -->
-                    <!-- ===card 2==== -->
-                    <!-- ============= -->
-                    <div class="col-1-of-3">
-                        <div class="card">
-                            <div class="card__side card__side--front card__side--front-2">
-                                <div class="back-wraper py-10 px-10 flex flex-col content-center justify-evenly h-full items-center">
-                                    <div class="icon-wraper">
-                                        <i class="fas fa-hammer text-white text-9xl"></i>
-                                    </div>
-                                    <h2 class="title-3 title-card text-4xl text-white">o que fazemos</h2>
-                                    <div class="generic-text  text-2xl text-center text-white">
-                                        A empresa Instaly Calhas é especializada na fabricação e instalação de rufos,
-                                        coifas, sputinick, entre outras peças
-                                        produzidas sobre medidas...
-                                    </div>
-                                    <div class="btn-wraper"><a href="" class="btn-wk flex items-center justify-center text-black bg-white rounded-2xl py-6 px-9 w-full text-center">produtos</a></div>
-                                </div>
-
-                            </div>
-                            <div class="card__side card__side--back card__side--back-2 bg-white">
-                                
-                                <div class="front-wraper py-10 px-10 flex flex-col content-center justify-evenly h-full items-center">
-                                    <div class="icon-wraper">
-                                        <i class="fas fa-hammer text-green-primary text-9xl"></i>
-                                    </div>
-                                    <h2 class="title-3 title-card text-4xl">o que fazemos</h2>
-                                    <div class="generic-text  text-2xl text-center">
-                                        A empresa Instaly Calhas é especializada na fabricação e instalação de rufos,
-                                        coifas, sputinick, entre outras peças
-                                        produzidas sobre medidas...
-                                    </div>
-                                    <div class="btn-wraper"><a href="" class="btn-wk flex items-center justify-center text-white hover:text-gray-100 bg-green-primary rounded-2xl py-6 px-9 w-full text-center">produtos</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ============= -->
-                    <!-- ===card 3==== -->
-                    <!-- ============= -->
-                    <div class="col-1-of-3">
-                        <div class="card">
-                            <div class="card__side card__side--front">
-                                <div class="front-wraper py-10 px-10 flex flex-col content-center justify-evenly h-full items-center">
-                                    <div class="icon-wraper">
-                                        <i class="far fa-edit text-green-primary text-9xl"></i>
-                                    </div>
-                                    <h2 class="title-3 title-card text-4xl text-center">faça um orçamento</h2>
-                                    <div class="generic-text  text-2xl text-center">
-                                        Solicite seu orçamento sem compromisso.
-                                    </div>
-                                    <div class="generic-text  text-2xl text-center">
-                                        Entraremos em contato o mais breve
-                                        possível...
-                                    </div>
-                                    <div class="btn-wraper"><a href="" class="btn-wk flex items-center justify-center text-white bg-green-primary rounded-2xl py-6 px-9 w-full text-center">fazer orçamento</a></div>
-                                </div>
-
-                            </div>
-                            <div class="card__side card__side--back card__side--back-3">
-                                <div class="back-wraper py-10 px-10 flex flex-col content-center justify-evenly h-full items-center">
-                                    <div class="icon-wraper">
-                                        <i class="far fa-edit text-white text-9xl"></i>
-                                    </div>
-                                    <h2 class="title-3 title-card text-4xl text-center text-white">faça um orçamento</h2>
-                                    <div class="generic-text  text-2xl text-center text-white">
-                                        Solicite seu orçamento sem compromisso.
-                                    </div>
-                                    <div class="generic-text  text-2xl text-center text-white">
-                                        Entraremos em contato o mais breve
-                                        possível...
-                                    </div>
-                                    <div class="btn-wraper"><a href="" class="btn-wk flex items-center justify-center text-black bg-white rounded-2xl py-6 px-9 w-full text-center">fazer orçamento</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>               
-        </section>
-    
-        <section class="strip-contato w-full bg-dark-primary py-12">
-            <div class="grid grid-cols-1 md:grid-cols-2 container">
-                <h3 class="title-2 text-white py-2 text-center md:text-left mb-5 md:mb-0">Fale conosco!</h3>
-                <div class="btn-wraper justify-center md:justify-end">
-                    <a class="btn-wk text-white bg-green-primary rounded-full py-6 px-24 text-center">Contato</a>
+            <div class="pagamentos__wrapper grid grid-cols-1 md:grid-cols-3 border-r-4 border-double border-white px-3">
+                <i class="pagamentos__wrapper--icon far fa-credit-card text-6xl m-auto"></i>
+                <div class="texts col-span-2">
+                    <h2 class="title-bland text-2xl">Até 12 parcelas sem juros</h2>
+                    <h3 class="title-bland text-xl text-gray-300"><a href="">ver mais!</a> </h3>
                 </div>
+            </div>
+            <div class="pagamentos__wrapper grid grid-cols-1 md:grid-cols-3 border-r-4 border-double border-white px-3">
+                <i class="pagamentos__wrapper--icon fas fa-money-bill text-6xl m-auto"></i>
+                <div class="texts col-span-2">
+                    <h2 class="title-bland text-2xl">À vista no boleto bancário</h2>
+                    <h3 class="title-bland text-xl text-gray-300"><a href="">ver mais!</a> </h3>
+                </div>
+            </div>
+            <div class="pagamentos__wrapper grid grid-cols-1 md:grid-cols-3  px-3">
+                <i class="pagamentos__wrapper--icon fas fa-plus-circle text-6xl m-auto"></i>
+                <div class="texts col-span-2">
+                    <h2 class="title-bland text-2xl">Mais meios de pagamento</h2>
+                    <h3 class="title-bland text-xl text-gray-300"><a href="">ver mais!</a> </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="recomendados py-16 container">
+        <div class=" grid grid-cols-1 md:grid-cols-4 gap-6">
+            <?php
+
+            $produtosRecomendados = new WP_Query(array(
+            'post_type' => array('product', 'product_variation'),
+            'posts_per_page' => 4,
+            'orderby' => 'date',
+            'order' => 'ASC' ,
+            'meta_query' => array(
+                array(
+                    'key'   => 'produto_recomendado',
+                    'value' => '1',
+                )
+            ),            
+            ));
+
+            while($produtosRecomendados->have_posts()){
+                $produtosRecomendados->the_post();
+                get_template_part('template-parts/content', 'card-products');
+            } wp_reset_postdata();?>  
+        </div> 
+            
+    </section>
+
+    <section class="categorias container">
+        <h2 class="title-2 text-6xl text-secondary mb-3 mt-12">Categorias</h2>
+        <div class="categorias__wrapper grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 gap-4">
+            
+                <div class="categorias__wrapper--eletrodomesticos row-span-2">
+                    <a class="min-h-full min-w-full" href="<?php echo esc_url(site_url('/categoria-produto/eletrodometicos/')); ?>">
+                        <h3 class="categorias__wrapper--titulo title-bland text-3xl text-white mt-9 ml-9">Eletrodomésticos</h3>
+                        
+                    </a>                 
+                </div>
+            
+            
+               <div class="categorias__wrapper--decoracao">
+                   <a class="min-h-full min-w-full" href="<?php echo esc_url(site_url('/categoria-produto/decoracao-casa-e-cozinha/')); ?>">
+                        <h3 class="categorias__wrapper--titulo title-bland text-3xl text-white mt-9 ml-9">Decoração/casa e cozinha</h3>    
+                        
+                   </a>
+                </div>
+            
+            
+               <div class="categorias__wrapper--brinquedos">
+                   <a class="min-h-full min-w-full" href="<?php echo esc_url(site_url('/categoria-produto/brinquedos-e-hobbies/')); ?>">
+                        <h3 class="categorias__wrapper--titulo title-bland text-3xl text-white mt-9 ml-9">Brinquedos e hobbies</h3>    
+                        
+                   </a>
+                </div>
+            
+            
+            
+            
+        </div>
+    </section>
+    
+        <section class="strip-contato w-full bg-dark-primary py-12 mt-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 container">
+                <h3 class="title-2 text-white py-6 text-center md:text-left mb-5 md:mb-0">Fale conosco!</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-28">
+                    <a class="btn-wk text-4xl text-white bg-primary rounded-full py-9 px-7 text-center">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a class="btn-wk text-4xl text-white bg-primary rounded-full py-9 px-7 text-center">
+                         <i class="fas fa-phone-alt"></i>
+                    </a>
+                    <a class="btn-wk text-4xl text-white bg-primary rounded-full py-9 px-7 text-center">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    
+                    <a class="btn-wk text-4xl text-white bg-primary rounded-full py-9 px-7 text-center">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                    
+                </div>
+                
             </div>
         </section>
     <!-- products -->
     <div id="promotional_slider">
         <div class="promotionalslider_wrapper">
          <?php
+
             $homepagePosts = new WP_Query(array(
-            'posts_per_page' => 6,
+            'post_type' => 'product',
+            'posts_per_page' => 15,
             'orderby' => 'date',
             'order' => 'ASC' ,
-            'category_name' => 'destaques' 
+            'tax_query' => array(
+                array(
+                    'taxonomy' => 'product_visibility',
+                    'field'    => 'name',
+                    'terms'    => 'featured',
+                ),
+            ),
             ));
 
             while($homepagePosts->have_posts()){
-            $homepagePosts->the_post(); ?>
-             
-            
+                $homepagePosts->the_post(); 
+                $price = get_post_meta( get_the_ID(), '_price', true );
+                $product = wc_get_product( get_the_ID() ); ?>
+
             
                 <div class="promotionalslider_single">
-                    <div class="product-card" data-anime="bottom">
-                            <div class="product-card__top-wraper">
-                                <div class="product-card__img-wraper">
-                                    <img class="product-card__img-top" src="<?php the_post_thumbnail_url('ProductImageList') ?>" alt="imagem produto">
+                    <a href="<?php the_permalink(); ?>" class="product-card__hyperlink-btn relative">
+                        <div class="product-card" data-anime="bottom">
+                                <div class="product-card__top-wraper">
+                                    <div class="product-card__img-wraper">
+                                        <img class="product-card__img-top" src="<?php the_post_thumbnail_url('ProductImageList') ?>" alt="imagem produto">
+                                        
+                                    </div>
+                                    <h4 class="product-card__title title-3 white px-3 md:px-9 mt-3 md:mt-9 text-left text-2xl md:text-3xl"><?php echo wp_trim_words( get_the_title(), 5);  ?></h4>
+                                </div>
+                                
+                                
+                                <div class="product-card__body px-3 md:px-9 text-xl md:text-2xl">
+                                    <p>
+                                    <?php
+                                        if($price){
+                                            
+                                            if ( ! $product->is_type('variable') ){
+                                                $active_price  = $product->get_price();
+                                                $regular_price = $product->get_regular_price();
+                                                
+                                                if ( $product->is_on_sale()) {
+                                                    echo wc_price($active_price ) . ' <del class="text-primary text-lg"> ' . wc_price($regular_price) . '</del>' . '<div class="card-product__body--price-offer bg-primary rounded-full flex items-center justify-center"> OFERTA! </div>';
+                                                } else {
+                                                    echo wc_price( $price );
+                                                }
+                                            }
+                                        } else {
+                                            echo "Consulte";
+                                        }
+                                    ?>
+                                    </p>
+                                    <p class="product-card__text">
+                                        <?php echo wp_trim_words( get_the_content(), 7);  ?>
+                                    </p>
                                     
                                 </div>
-                                <h4 class="product-card__title title-3 white px-3 md:px-9 mt-3 md:mt-9 text-left text-2xl md:text-3xl"><?php echo wp_trim_words( get_the_title(), 5);  ?></h4>
-                            </div>
-                            
-                            
-                            <div class="product-card__body px-3 md:px-9 text-xl md:text-2xl">
-                               
-                                <p class="product-card__text">
-                                    <?php echo wp_trim_words( get_the_content(), 33);  ?>
-                                </p>
                                 
-                            </div>
+                        
                             
-                       
-                        <a href="<?php the_permalink(); ?>" class="product-card__hyperlink-btn">
-                                <div class="btn-wk__alt btn-wk__alt--material-bubble bg-green-primary hover:bg-green-900">Ver mais</div>
-                            </a>
-                    </div>
+                                    <!-- <div class="btn-wk__alt btn-wk__alt--material-bubble bg-green-primary hover:bg-green-900">Ver mais</div> -->
+                                
+                        </div>
+                    </a>
                 </div>
             <?php } wp_reset_postdata(); ?>
         </div>
     </div>
-    <section class="servicos grid grid-cols-1 md:grid-cols-3 pb-40 md:pb-40 pt-72 px-20 md:px-60 text-center md:text-left">
-        <div class="servicos-texto space-y-12">
-            <h2 class="title text-green-primary">serviços</h2>
-            <p class="generic-text text-2xl text-dark-primary">
-                Aqui na Empresa INSTALY CALHAS, oferecemos o melhor acabamento em calhas e tudo que sua casa precisa. Você pode contar com atendimento ao cliente que conta com profissionalismo, seja qual for sua dúvida, estamos aqui para ajuda-lo.
-            </p>
-            <p class="generic-text text-2xl text-dark-primary">
-            Nosso atendimento aos clientes não é a única coisa que impressiona, nossa mão de obra conta com o maior nível  de excelência, dando um toque  que contem um diferencial profissionalismo que existe em tudo que fazemos. Seja você também um cliente Instaly Calhas!
-            </p>
-        </div>
-    </section>
     
 
 <?php get_footer(); ?>

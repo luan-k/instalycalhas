@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ["./**/*.html", "./**/*.js", "./**/*.php"],
+  purge: false, // ["./**/*.html", "./**/*.js", "./**/*.php"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -13,6 +13,8 @@ module.exports = {
         light: {
           primary: "#D0E5EC",
         },
+        primary: "#302d58",
+        secondary: "#983134",
         /*  primary: "#002e65", */
       },
       fontFamily: {

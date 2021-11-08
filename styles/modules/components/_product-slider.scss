@@ -5,50 +5,23 @@ $slidercolor-font: #fff;
 
 #promotional_slider {
   width: 90%;
-  padding: 20px 30px;
+  padding: 9rem 3rem;
   margin: 0 auto;
-  overflow: hidden;
+  overflow-x: hidden;
   background: transparent;
+  overflow-y: visible;
 
   .promotionalslider_wrapper {
     width: 100%;
     /* display: flex; */
 
     .slick-arrow {
-      font-size: 0;
-      width: 40px;
-      height: 40px;
+      font-size: 3rem;
+      width: 6rem;
+      height: 6rem;
       border-radius: 100%;
-      -webkit-appearance: none;
-      border: 0;
-      background: #444;
-      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
-      outline: none;
-      &:before {
-        font-size: 23px;
-        color: #fff;
-      }
-
-      &.slick-next:before {
-        content: ">";
-      }
-
-      &.slick-prev:before {
-        content: "<";
-      }
-
-      &:hover {
-        cursor: pointer;
-      }
-
-      &.slick-disabled {
-        opacity: 0.5;
-        background: #ccc;
-
-        &:hover {
-          cursor: not-allowed;
-        }
-      }
+      background: #fff;
+      box-shadow: 0px 2px 54px -10px rgba(0, 0, 0, 0.53);
     }
 
     /* slick initialized */
@@ -58,7 +31,7 @@ $slidercolor-font: #fff;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        z-index: 9;
+        z-index: 9999;
       }
 
       .slick-next {
@@ -75,7 +48,6 @@ $slidercolor-font: #fff;
       width: 25%;
       flex: 0 0 25%;
       flex-direction: column;
-      margin: 0 10px;
 
       section {
         background: no-repeat center center / cover;
@@ -100,7 +72,7 @@ section.marcas {
 }
 /* Slider */
 .slick-slide {
-  margin: 0px 20px;
+  margin: 0px 0.9rem;
 }
 
 /* .logo-carousel {

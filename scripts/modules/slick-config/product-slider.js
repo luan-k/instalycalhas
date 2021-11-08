@@ -2,11 +2,15 @@ import $ from "jquery";
 $(document).ready(function () {
   $(".promotionalslider_wrapper").slick({
     infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToShow: 5,
+    slidesToScroll: 5,
     autoplay: true,
-    dots: true,
-    arrows: false,
+    dots: false,
+    arrows: true,
+    prevArrow:
+      '<button class="slide-arrow slick-prev"><i class="fas fa-chevron-left"></i></button>',
+    nextArrow:
+      '<button class="slide-arrow slick-next"><i class="fas fa-chevron-right"></i></button>',
     pauseOnHover: true,
     autoplaySpeed: 2000,
     responsive: [
